@@ -1,8 +1,8 @@
 output "person3" {
   description = "Person list converted"
-  value       =  module.mod-azure-gov-tagssssss.person3
+  value       =  module.module1.list_converted
 }
 output "value_key" {
-  description = "Person list converted"
-  value       =  module.module2.list_persons
+  description = "The values of each person (key) :"
+  value       =  module.module22.list_persons
 }
